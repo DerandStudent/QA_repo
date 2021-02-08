@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+</head>
+<body>
+    <h1>Demo Todo List</h1>
+    <h4>Please add new tasks to the list</h4>
+    <div>
+      <form action="{{ url_for('new task') }}" method="POST">
+        <input type="text" name="todolist" />
+        <input type="submit" value="Add Task" />
+      </form>
+    </div>
+    <h3>Uncompleted</h3>
+    <ul>
+      {% for todo in incomplete %}
+      <li>
+        {{ todo.text }}
+        <a href="{{ url_for('complete', id=todo.id) }}">Finished</a>
+      </li>
+      {% endfor %}
+    </ul>
+    <h2>Finished ;)</h2>
+    <ul>
+      {% for todo in complete %}
+      <li >
+          {{ todo.text }}
+      </li>
+      {% endfor %}
+    </ul>
+</body>
+</html>
