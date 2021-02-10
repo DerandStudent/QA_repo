@@ -23,8 +23,8 @@ Here are some of the Diagrams that I created and the state of the Kanban Board w
 []()
 
 ### Wireframes of the Website
-![alt text](C:\Users\Code\Downloads\ERD_Quiz_template.jpeg)
-![To-do%20%E2%86%92Flask%20App%20f57c6a8556ed4d19932cdb61be4053b4/Quiz_app_wireframe_(1).jpeg](To-do%20%E2%86%92Flask%20App%20f57c6a8556ed4d19932cdb61be4053b4/Quiz_app_wireframe_(1).jpeg)
+
+![quiz app wireframe](https://user-images.githubusercontent.com/55449689/107543761-70c8cc80-6bc1-11eb-9885-e79398e81961.jpeg)
 
 ### Database Diagram
 ![alt text](C:\Users\Code\Downloads\ERD_Quiz_template.jpeg)
