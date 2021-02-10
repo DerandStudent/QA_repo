@@ -18,20 +18,18 @@ Here are some of the Diagrams that I created and the state of the Kanban Board w
 
 ### Kanban Board
 
-[Quiz app project](https://www.notion.so/cecb90a6322446e99fc96d1bd11a8fe7)
-
-[]()
+![quiz kanban board](https://user-images.githubusercontent.com/55449689/107546494-517f6e80-6bc4-11eb-8a54-9583f9d17c9a.png)
 
 ### Wireframes of the Website
 
 ![quiz app wireframe](https://user-images.githubusercontent.com/55449689/107543761-70c8cc80-6bc1-11eb-9885-e79398e81961.jpeg)
 
 ### Database Diagram
-![alt text](C:\Users\Code\Downloads\ERD_Quiz_template.jpeg)
+![quiz ERD Diagram](https://user-images.githubusercontent.com/55449689/107543690-5abb0c00-6bc1-11eb-9864-e2e8af852e30.jpeg)
 
 ### Risk Assessment
 
-[Quiz App → Risk Assessment](https://www.notion.so/31abe604815d4f21af54e07cd1628e28)
+![quiz risk assessment](https://user-images.githubusercontent.com/55449689/107546523-5a704000-6bc4-11eb-83fb-d096a989d267.png)
 
 ## To-do → Project
 
@@ -43,13 +41,11 @@ This new project was very time constrained; the time limit is a day. thus the pr
 
 The tasks set for this are very basic as I didn't have a lot of time for planning.
 
-[To-do App](https://www.notion.so/a38ef866df3840ee99a26d79510ea911)
-
-[Set up a GCP Instance and install the basic dependencies → not installing Jenkins](https://www.notion.so/Set-up-a-GCP-Instance-and-install-the-basic-dependencies-not-installing-Jenkins-0023f29b853a481fb2fe3a5925bcde2b)
+![todo kanban board](https://user-images.githubusercontent.com/55449689/107546507-55ab8c00-6bc4-11eb-9ed1-b21ed9b7cffa.png)
 
 ### To-do → wireframe
 
-![To-do%20%E2%86%92Flask%20App%20f57c6a8556ed4d19932cdb61be4053b4/Todo_wireframe.jpeg](To-do%20%E2%86%92Flask%20App%20f57c6a8556ed4d19932cdb61be4053b4/Todo_wireframe.jpeg)
+![todo wireframe](https://user-images.githubusercontent.com/55449689/107543836-8211d900-6bc1-11eb-941b-4ab238b7559a.jpeg)
 
 ### Risk Assessment
 
@@ -57,7 +53,7 @@ It is the same as the last project and hasn't changed
 
 ### Developing the project
 
-The main [app.py](http://app.py) was made as a basic Flask app:
+The main app.py was made as a basic Flask app:
 
 ```python
 from flask import Flask, render_template
